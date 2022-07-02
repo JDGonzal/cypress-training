@@ -4,7 +4,10 @@
   "description": "This is a Workshop about Cypress",
   "main": "index.js",
   "scripts": {
-    "test:open": "cypress open"
+    "test:open": "cypress open",
+    "e2e" : "cypress run",
+    "e2e:chrome": "cypress open --browser chrome",
+    "e2e:record:chrome": "cypress run --record --browser chrome"
   },
   "repository": {
     "type": "git",
