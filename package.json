@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test:open": "cypress open",
-    "e2e" : "cypress run",
-    "e2e:chrome": "cypress open --browser chrome",
+    "e2e": "cypress run",
+    "e2e:chrome": "cypress run --headed --browser chrome",
     "e2e:record:chrome": "cypress run --record --browser chrome"
   },
   "repository": {
@@ -27,5 +27,8 @@
   "homepage": "https://github.com/JDGonzal/cypress-training#readme",
   "dependencies": {
     "cypress": "^10.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
   }
 }
