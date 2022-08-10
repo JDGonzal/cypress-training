@@ -22,7 +22,7 @@ jobs:
         run: npm run lint
 
       - name: UI E2E Tests
-        uses: cypress-io/github-action@v2
+        uses: cypress-io/github-action@v2 --config-file=cypress.config.js
         with:
           browser: chrome
           headless: true
