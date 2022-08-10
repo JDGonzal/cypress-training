@@ -9,7 +9,8 @@
     "e2e:chrome": "cypress open --browser chrome",
     "e2e:record:chrome": "cypress run --record --browser chrome",
     "lint": "eslint ./cypress/**/*.ts",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
